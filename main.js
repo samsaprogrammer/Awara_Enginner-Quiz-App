@@ -1,154 +1,154 @@
 const questions = [
     {
-        question: "What is Your Chutiya Collage name ?",
+        question: "Which of the following is an input device ?",
         answers: [
-            {text: "Goverment Polytecnice Kanpur", correct: false},
-            {text: "Goverment Polytecnice Mahoba", correct: true},
-            {text: "Goverment Polytecnice Khulpahar", correct: false},
-            {text: "Goverment Polytecnice Lucknow", correct: false},
+            {text: "Monitor", correct: false},
+            {text: "Keyboard", correct: true},
+            {text: "Printer", correct: false},
+            {text: "Speaker", correct: false},
         ]
     },
-    {    question: "Which  branch do you have ?",
+    {    question: "What does CPU stand for?",
     answers: [
-        {text: "Electrical", correct: false},
-        {text: "Mechanical", correct: false},
-        {text: "Computer Science & Information Tecnhology", correct: true},
-        {text: "Electronics", correct: false},
+        {text: "Central Process Unit", correct: false},
+        {text: "Control Process Unit", correct: false},
+        {text: "Central Processing Unit", correct: true},
+        {text: "Control Processing Unit", correct: false},
     ]
 
     },
-    {    question: "Genda👿 kiska Nick name hai ?",
+    {    question: "Which part of the computer is responsible for executing instructions?",
     answers: [
-        {text: "Raj Beg Mirza", correct: false},
-        {text: "Swapnill Singh Osab", correct: false},
-        {text: "Anand Sani", correct: false},
-        {text: "Harshit", correct: true},
+        {text: "RAM", correct: false},
+        {text: "Hard Disk", correct: false},
+        {text: "GPU", correct: false},
+        {text: "CPU", correct: true},
     ]
 
     },
-    {    question: "Vo kon sa ladka hai jiski gf uski bahan lagti😁 ?",
+    {    question: "Which of the following is a type of volatile memory?",
     answers: [
+        {text: "ROM", correct: false},
+        {text: "Hard Drive", correct: false},
+        {text: "Flash Drive", correct: false},
+        {text: "RAM", correct: true},
+    ]
+
+    },
+    {    question: "What is the main function of an operating system?",
+    answers: [
+        {text: "To manage hardware and software resources", correct: true},
+        {text: "To perform arithmetic calculations", correct: false},
+        {text: "To display images on the screen", correct: false},
+        {text: "To store data permanently", correct: false},
+    ]
+
+    },
+    {    question: "Which one of the following is not an operating system?",
+    answers: [
+        {text: "Windows", correct: false},
+        {text: "macOS", correct: true},
+        {text: "Linux", correct: false},
         {text: "Harshit", correct: false},
-        {text: "Swapnill Singh Osab", correct: false},
-        {text: "Anand Sani", correct: false},
-        {text: "Raj Beg Mirza", correct: true},
     ]
 
     },
-    {    question: "Nibba kon hai ?",
+    {    question: "Which of the following is used for internet browsing?",
     answers: [
-        {text: "Raj Beg Mirza", correct: false},
-        {text: "Swapnill Singh Osab", correct: false},
-        {text: "Adarsh", correct: true},
-        {text: "Harshit", correct: false},
+        {text: "Compiler", correct: false},
+        {text: "File Explorer", correct: false},
+        {text: "Terminal", correct: false},
+        {text: "Browser", correct: true},
     ]
 
     },
-    {    question: "Akhand Single Kon hai ?",
+    {    question: "Which type of software translates high-level language into machine language?",
     answers: [
-        {text: "Raj Beg Mirza", correct: false},
-        {text: "Yogrand", correct: true},
-        {text: "Adarsh", correct: false},
-        {text: "Harshit", correct: false},
-    ]
-
-    },
-    {    question: "Sabse bda Gandu ?",
-    answers: [
-        {text: "Raj Beg Mirza", correct: false},
-        {text: "Yogrand", correct: false},
-        {text: "Adarsh", correct: false},
-        {text: "Harshit", correct: true},
-    ]
-
-    },
-    {    question: "Group me femous Gali ?",
-    answers: [
-        {text: "Bhkk Bskd", correct: false},
+        {text: "Text Editor", correct: false},
         {text: "Tere maa ki cho..?", correct: false},
-        {text: "Chala Ja bskd ke", correct: true},
-        {text: "gand marao", correct: false},
+        {text: "Compiler", correct: true},
+        {text: "Assembler", correct: false},
     ]
 
     },
-    {    question: "Exam time me baki jane vali gali?",
+    {    question: "What does LAN stand for?",
     answers: [
-        {text: "Bhkk Bskd", correct: false},
-        {text: "Fati pari hai bskd ke", correct: true},
-        {text: "Chala Ja bskd ke", correct: false},
-        {text: "gand marao", correct: false},
+        {text: "Local Access Network", correct: false},
+        {text: "Local Area Network", correct: true},
+        {text: "Long Area Network", correct: false},
+        {text: "Long Access Network", correct: false},
     ]
 
     },
-    {    question: "Sabse bda lodiya baaj?",
+    {    question: "Which of the following storage devices is non-volatile?",
     answers: [
-        {text: "Swapnill Singh ", correct: false},
-        {text: "Raj BEg MIrza", correct: false},
-        {text: "Harshit", correct: false},
-        {text: "Adarsh", correct: true},
+        {text: "RAM", correct: false},
+        {text: "Cache Memory", correct: false},
+        {text: "Registers", correct: false},
+        {text: "Hard Drive", correct: true},
     ]
 
     },
-    {    question: "Mardana Kiski Gf hai ?",
+    {    question: "Which of the following is a network topology?",
     answers: [
-        {text: "Swapnill Singh ", correct: false},
-        {text: "Anand", correct: true},
-        {text: "Devendra", correct: false},
-        {text: "Yogrand", correct: false},
+        {text: "Tree ", correct: true},
+        {text: "Windows", correct: false},
+        {text: "MAC", correct: false},
+        {text: "Linux", correct: false},
     ]
 
     },
-    {    question: "Group me gand faar bajati kiski hoti ?",
+    {    question: "What is the smallest unit of data in a computer system?",
     answers: [
-        {text: "Adarsh", correct: false},
-        {text: "Yogrand", correct: false},
-        {text: "Devendra", correct: false},
-        {text: "Harshit", correct: true},
+        {text: "Byte", correct: false},
+        {text: "Nibble", correct: false},
+        {text: "Word", correct: false},
+        {text: "Bit", correct: true},
     ]
 
     },
-    {    question: "Me (Madar Cho..d) Khne vala Chutiya Kon hai ?",
+    {    question: "Which type of memory is used to store data temporarily?",
     answers: [
-        {text: "Adarsh", correct: true},
-        {text: "Yogrand", correct: false},
-        {text: "Devendra", correct: false},
-        {text: "Harshit", correct: false},
+        {text: "RAM", correct: true},
+        {text: "ROM", correct: false},
+        {text: "SSD", correct: false},
+        {text: "Hard Disk", correct: false},
     ]
 
     },
-    {    question: "Sabse Jada Lucknow me kiski mari gyi ?",
+    {    question: "Which of the following is not a programming language?",
     answers: [
-        {text: "Adarsh", correct: true},
-        {text: "Yogrand", correct: false},
-        {text: "Devendra", correct: false},
-        {text: "Harshit", correct: false},
+        {text: "MS Word", correct: true},
+        {text: "Python", correct: false},
+        {text: "HTML", correct: false},
+        {text: "Java", correct: false},
     ]
 
     },
-    {    question: "Vo kon sa ladka hai jiski Gf uski mar lati ?",
+    {    question: "Which one of the following is an example of application software?",
     answers: [
-        {text: "Raj", correct: false},
-        {text: "Yogrand", correct: false},
-        {text: "Swapnill", correct: true},
-        {text: "Davendra", correct: false},
+        {text: "Windows", correct: false},
+        {text: "Linux", correct: false},
+        {text: "Microsoft Word", correct: true},
+        {text: "BIOS", correct: false},
     ]
 
     },
-    {    question: "Gf ke pyar me kiski lode lge ?",
+    {    question: "Which key combination is commonly used to copy selected data?",
     answers: [
-        {text: "Raj", correct: false},
-        {text: "Anand", correct: false},
-        {text: "Swapnill", correct: false},
-        {text: "Yusuf", correct: true},
+        {text: "Ctrl + X", correct: false},
+        {text: "Ctrl + V", correct: false},
+        {text: "Ctrl + P", correct: false},
+        {text: "Ctrl + C", correct: true},
     ]
 
     },
-    {    question: "Harshit Ki kitne Crush hai ?",
+    {    question: "Which type of software controls the hardware of the computer?",
     answers: [
-        {text: "4", correct: true},
-        {text: "2", correct: false},
-        {text: "1", correct: false},
-        {text: "3", correct: false},
+        {text: "System Software", correct: true},
+        {text: "Application Software", correct: false},
+        {text: "Utility Software", correct: false},
+        {text: "Security Software", correct: false},
     ]
 
     },
